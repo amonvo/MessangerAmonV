@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first chatbox</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chatbox</h1>
+    <h2 id="demo"></h2>
+    <hr/>
+    <div style="text-align:left">
+        <h3>Select color: </h3>
+        <span id="dot" class="dotClass"></span>
+        <span id="dot2" class="dotClass2"></span>
+        <span id="dot3" class="dotClass3"></span>
+        <span id="dot4" class="dotClass4"></span>
+        <span id="dot5" class="dotClass5"></span>
+        <span id="dot6" class="dotClass6"></span>
+        <span id="dot7" class="dotClass7"></span>
+    </div>
+    <hr/>
+        <textarea cols="56" rows="5" name="pzprava" id="id_pzprava"></textarea><br>
+        <button type="button" id="odesli">Odešli zprávu</button>
+    <hr/>
+    <button type="button" id="aktualizuj">Aktualizuj zprávy</button>
+    <img src="reload.gif" alt="reload" id="reload-gif">
+    <div id="chat-window">Some text here:</div>
+    <p id="change"></p>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

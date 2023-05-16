@@ -1,0 +1,120 @@
+body {
+  font-family: Verdana, Arial;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightgrey;
+  border: 15px solid green;
+  position: inherit;
+  padding: 30px;
+}
+.dotClass {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(14, 233, 14);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dotClass2 {
+ height: 25px;
+  width: 25px;
+  background-color: rgb(241, 9, 9);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dotClass3 {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(8, 23, 228);
+  border-radius: 50%;
+  display: inline-block;
+  }
+.dotClass4 {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(234, 238, 4);
+  border-radius: 50%;
+  display: inline-block;
+  }
+.dotClass5 {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(178, 6, 247);
+  border-radius: 50%;
+  display: inline-block;
+  }
+.dotClass6 {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(0, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  }
+.dotClass7 {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(10, 10, 10);
+  border-radius: 50%;
+  display: inline-block;
+}
+.chatWorkClass {
+  background-color: lightgrey;
+  width: 200px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+#demo {
+  font-size: 2rem;  
+}
+
+#aktualizuj, #odesli {
+  width: 200px; height: 50px;
+  background-color: rgb(173, 241, 174);
+  font-size: 20px; font-weight: 600;
+  border: 5px solid gray;
+  border-radius: 5px;
+  margin: 0px 25px;
+}
+
+#odesli {
+  margin: 10px 25px 0px;
+}
+
+#chat-window {
+  position: relative;
+}  
+
+#reload-gif {
+  position: absolute;
+  top: 60%; left: 15%;
+  display: none;
+  z-index: 10;
+}
+
+#id_pzprava {
+  border: 5px solid gray;
+  border-radius: 5px;
+  margin: 12px 25px 0px;
+  font-size: 18px; font-weight: 600;
+}
+
+#chat-window .zprava {
+  background-color: rgb(251, 235, 189);
+  border: 8px solid grey;
+  border-radius: 25px;
+  width: 33vw; min-height: 100px; 
+  padding: 10px 30px 30px;
+  margin: 25px;
+}
+
+#chat-window .zprava h3 {
+  font-size: 1.4rem;
+}
+
+#chat-window .zprava i {
+  float: right;
+}
